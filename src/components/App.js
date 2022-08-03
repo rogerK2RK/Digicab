@@ -2,6 +2,7 @@ import logo from '../assets/Logos/logo doohit full blue 1.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faPhone} from '@fortawesome/free-solid-svg-icons'
 import FirstSection from './FirstSection';
+import SecondeSection from './SecondeSection';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         </div>
       </header>
       <FirstSection/>
+      <SecondeSection/>
     </div>
   );
 }
