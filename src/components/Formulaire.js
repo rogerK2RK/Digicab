@@ -1,6 +1,6 @@
 import './Formulaire.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faArrowUpRightDots} from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import arrowUp from "../assets/Icones/ArrowUpRight.svg"
 
 function Formulaire() {
   return (
@@ -41,7 +41,7 @@ function Formulaire() {
         d'utilisation</a> et <a className='link-cond-form' href='Politique de confidentialité.' >Politique de confidentialité.</a></label>
       </div>
       <button className='box-tel submit-form'>S'inscrire maintenant
-      <FontAwesomeIcon icon={faArrowUpRightDots} />
+      <img className='icone-arrow-up' src={arrowUp} alt="icone Arrow up" />
       </button>
     </form>
   );
