@@ -9,7 +9,7 @@ function Formulaire() {
       <div className='box-form'>
       <label>Adresse email</label>
       <div className='box-tel'>
-        <input className='input-form' type="text" name='mail' placeholder='Saisissez votre adresse e-mail.' />
+        <input className='input-form' type="email" name='mail' placeholder='Saisissez votre adresse e-mail.' />
       </div>
       </div>
       <div className='box-form'>
