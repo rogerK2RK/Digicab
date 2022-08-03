@@ -56,9 +56,11 @@ span{
     font-feature-settings: 'salt' on, 'liga' off;
 }
 
+/* partenaire part  */
+
 .box-partenaire{
     display: flex;
-    margin-top: 100px;
+    margin: 100px 0px;
     width: 100%;
     background: linear-gradient(95.58deg, #076DB4 0.73%, #042C8C 117.02%);
     border-radius: 15px;
@@ -68,10 +70,95 @@ span{
    padding:  70px 92px 54px 97px;
 }
 
+.title-partenaire{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.text-partenaire{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.bouton-partenaire{
+    color: #14186A;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 20px 50px;
+    gap: 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px ;
+    border: 0px;
+}
+
 .bandeau{
     position: relative;
-    left: 21.005%;
+    left: 8.005%;
     right: 3.825%;
     top: 0%;
     bottom: 0%;
+}
+
+/* FAQ part  */
+
+.sect-faq{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.box-faq-pict{
+    height: 493px;
+    width: 35%;
+    background: linear-gradient(95.58deg, #076DB4 0.73%, #042C8C 117.02%);
+    border-radius: 15px;
+}
+
+.faq-pict{
+    position: relative;
+    bottom: 0px;
+    top: -31px;
+}
+
+.title-faq{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    letter-spacing: -0.02em;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #020D37;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.box-faq{
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #EDEFFF;
+    border-radius: 4px;
+    margin: 0 0 20px 0;
+}
+
+.faq{
+    margin: 0px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #24216E;
+}
+
+.dropdown-icon-faq{
+    color: #14186A;
+    background: #EDEFFF;
+    margin-left: 33px;
+    padding: 13px 15px;
+    border-radius: 25px;
 }
