@@ -1,0 +1,83 @@
+.App-header{
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 117px;
+  height: 88px;
+  /* position: fixed; */
+  background-color: #fff;
+  /* top: 0%;
+  right: 0%;
+  left: 0%; */
+}
+
+.logo-header{
+  width: 132.91px;
+  height: 38px;
+  /* position: absolute;
+  left: 118px; */
+}
+
+.nav-header{
+  display: flex;
+}
+
+.call-box-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 10px;
+  margin-right: 20px;
+  gap: 5px;
+}
+
+.incone-phone-header{
+  width: 16px;
+  height: 16px;
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #14186A;
+}
+
+.number-header{
+  text-decoration: none;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #14186A;
+  width: 110px;
+  height: 18px;
+  }
+
+.bouton-inscription-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 22px;
+  gap: 5px;
+  color: #fff;
+  background: #1736A2;
+  border-radius: 4px;
+  border: 0px;
+}
+
+.phone-picto-header{
+  color: #14186a;
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}

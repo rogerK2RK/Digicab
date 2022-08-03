@@ -1,0 +1,93 @@
+.form{
+    background-color: #fff;
+    width: 422px;
+    border-radius: 6px;
+    padding: 30px;
+    color: #14186A;
+}
+
+.title-form-firstSection{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+label{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.box-form{
+    margin-top: 15px;
+    /* width: 362px; */
+}
+
+.input-form{
+    width: 100%;
+    padding: 15px 28px 15px 18px;
+    gap: 10px;
+    border: 1px solid rgba(36, 35, 110, 0.5);
+    border-radius: 4px;
+}
+
+
+.input-form-tel::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(36, 35, 110, 0.5);
+    opacity: 1; /* Firefox */
+}
+
+.input-form::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(36, 35, 110, 0.5);
+    opacity: 1; /* Firefox */
+}
+
+.box-tel{
+    display: flex;
+    gap: 3px;
+    width: 100%;
+    margin: 0px;
+}
+
+.box-prefixe-tel{
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px 15px 18px;
+    gap: 10px;
+    width: 30%;
+    background: #ECF0F8;
+    border: 1px solid rgba(36, 35, 110, 0.5);
+    border-radius: 4px 0px 0px 4px;
+}
+.input-form-tel{
+    gap: 10px;
+    width: 70%;
+    border: 1px solid rgba(36, 35, 110, 0.5);
+    border-radius: 0px 4px 4px 0px;
+    padding: 15px 28px 15px 18px;
+}
+
+.ville{
+    background: #ECF0F8;
+}
+.cond-form{
+    color: rgba(36, 35, 110, 0.5);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.link-cond-form{
+    color: #14186A;
+}
+
+.submit-form{
+    background: linear-gradient(90.22deg, #1A1F86 28.18%, #155ACB 99.85%);
+    box-shadow: 0px 4px 9px rgba(20, 24, 106, 0.4);
+    border-radius: 4px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    border: 0px;
+    padding: 20px 50px;
+    gap: 10px;
+    margin-top: 30px;
+}
