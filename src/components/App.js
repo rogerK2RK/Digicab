@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faPhone} from '@fortawesome/free-solid-svg-icons'
 import FirstSection from './FirstSection';
 import SecondeSection from './SecondeSection';
+import Footer from './Footer'
 import './App.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       </header>
       <FirstSection/>
       <SecondeSection/>
+      <Footer/>
     </div>
   );
 }

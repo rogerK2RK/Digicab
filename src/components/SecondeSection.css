@@ -59,6 +59,7 @@ span{
 /* partenaire part  */
 
 .box-partenaire{
+    position: relative;
     display: flex;
     margin: 100px 0px;
     width: 100%;
@@ -98,9 +99,10 @@ span{
 }
 
 .bandeau{
-    position: relative;
-    left: 8.005%;
-    right: 3.825%;
+    position: absolute;
+    height: 100%;
+    left: 62.01%;
+    right: 7.65%;
     top: 0%;
     bottom: 0%;
 }

@@ -52,6 +52,7 @@ function SecondeSection() {
                         social personnalisé</p>
                     </div>
             </div>
+            {/* autre fichier */}
             <div className='box-partenaire'>
                 <div className='content-partenaire'>
                     <h2 className='title-partenaire'>Devenez Digicab Partner</h2>
@@ -109,20 +110,6 @@ function SecondeSection() {
                     </div>
                 </div>
             </div>
-
-            {/* Footer dans un autre fichier */}
-            <footer>
-                <div>
-                    <div>
-                        <img alt='logo'/>
-                        <div>
-                            <img/>
-                            <a href='mail'>sav@doohit.fr</a>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-
       </div>
     </section>
   );
