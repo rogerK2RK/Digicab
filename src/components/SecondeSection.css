@@ -1,7 +1,9 @@
 .SecondeSection{
     font-family: 'Roboto';
+    position: relative;
     font-style: normal;
-    padding: 30px 118px;
+    background-color: #F5F6F8;
+    padding: 30px 118px 130px 118px;
 }
 
 .title-secd-sct{
@@ -15,7 +17,7 @@ span{
 }
 
 .text-secd-sct{
-    width: 945px;
+    width: 100%;
     font-weight: 500;
     font-size: 30px;
     display: flex;
