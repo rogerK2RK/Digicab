@@ -6,11 +6,14 @@
   justify-content: space-between;
   padding: 0px 117px;
   height: 88px;
-  /* position: fixed; */
+  top: 0%;
+  position: sticky;
   background-color: #fff;
-  /* top: 0%;
-  right: 0%;
-  left: 0%; */
+  z-index: 1;
+}
+
+button{
+  cursor: pointer;
 }
 
 .logo-header{

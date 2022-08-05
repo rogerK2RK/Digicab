@@ -1,11 +1,11 @@
 footer{
     background-color: #054199;
-    padding: 30px 118px;
     color: #fff;
 }
 
 .first-bloc-footer{
     display: flex;
+    padding: 30px 118px;
     justify-content: space-between;
 }
 
@@ -14,7 +14,11 @@ footer{
 }
 
 .box-head-footer{
-    margin-bottom: 30px;
+    margin-bottom: 47px;
+}
+
+.box-head-footer-badge{
+    margin-bottom: 0px;
 }
 
 .logo_footer{
@@ -33,6 +37,24 @@ footer{
     margin-bottom: 25px;
 }
 
+.dp-flx{
+    display: flex;
+}
+
+.dp-blk{
+    display: flex;
+    flex-direction: column;
+}
+
+.mrg-btm{
+    margin-bottom: 16px;
+}
+
+.flx-end{
+    display: block;
+    justify-content: flex-end;
+}
+
 .icons_footer{
     margin-right: 11px;
     height: 22px;
@@ -46,4 +68,23 @@ footer{
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+}
+
+.badge_footer{
+    width: 180px;
+    /* height: 40px; */
+    /* margin-top: 16px; */
+    /* object-fit: contain; */
+}
+
+.second-bloc-footer{
+    background: #043793;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 118px;
+}
+
+.link-footer-secd{
+    color: #fff;
+    text-decoration: none;
 }

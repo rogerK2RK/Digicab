@@ -16,7 +16,7 @@ function App() {
             <FontAwesomeIcon className='incone-phone-header' icon={faPhone} />
             <a className='number-header' href="tel:+33783436950">07 83 43 69 50</a>
           </div>
-          <button className='bouton-inscription-header'>Je m'inscris</button>
+          <button type="button" className='bouton-inscription-header'>Je m'inscris</button>
         </div>
       </header>
       <FirstSection/>
