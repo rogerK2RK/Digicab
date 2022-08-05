@@ -11,6 +11,9 @@
   background-color: #fff;
   z-index: 1;
 }
+.App{
+  background: rgba(245, 246, 248, 0.2);
+}
 
 button{
   cursor: pointer;

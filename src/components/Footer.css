@@ -1,10 +1,14 @@
 footer{
+    position: relative;
+    margin-top: 100px;
     background-color: #054199;
     color: #fff;
 }
 
 .first-bloc-footer{
     display: flex;
+    position: inherit;
+    z-index: 1;
     padding: 30px 118px;
     justify-content: space-between;
 }
@@ -87,4 +91,28 @@ footer{
 .link-footer-secd{
     color: #fff;
     text-decoration: none;
+}
+
+.VectorBleu1{
+    position: absolute;
+    z-index: 0px;
+    top: -87px;
+    left: 0px;
+    width: 100%;
+}
+
+.VectorBleu2{
+    position: absolute;
+    z-index: 0px;
+    top: -102px;
+    left: 0px;
+    width: 100%;
+}
+
+.VectorBleu3{
+    position: absolute;
+    z-index: 0px;
+    top: -71px;
+    left: 0px;
+    width: 100%;
 }

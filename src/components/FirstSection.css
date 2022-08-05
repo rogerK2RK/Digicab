@@ -1,4 +1,5 @@
 .firstSection{
+    position: relative;
     height: 600px;
     padding: 75px 117px 148px 133px ;
     background-image: url("../assets/Img_hero.png" );
@@ -25,6 +26,28 @@
     font-size: 25px;
     line-height: 28px;
 }
+
+.Vector1{
+    position: absolute;
+    bottom: -18px;
+    left: 0px;
+    width: 100%;
+}
+
+.Vector2{
+    position: absolute;
+    bottom: -36px;
+    left: 0px;
+    width: 100%;
+}
+
+.Vector3{
+    position: absolute;
+    bottom: -34px;
+    left: 0px;
+    width: 100%;
+}
+
 
 /* .Image-sectionFirst{
     width: 100%;

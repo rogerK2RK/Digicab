@@ -4,11 +4,17 @@ import icon_phone_vide from '../assets/Icones/Icon_phone_vide.svg'
 import icon_home from '../assets/Icones/Icon_home.svg'
 import badge_app_store from '../assets/Badges/Google Play.png'
 import badge_play_store from '../assets/Badges/App Store.png'
+import VectorBleu01 from "../assets/Vectors/Vector-bleu-1.png"
+import VectorBleu02 from "../assets/Vectors/Vector-bleu-2.png"
+import VectorBleu3 from "../assets/Vectors/Vector-bleu-3.png"
 import './Footer.css';
 
 function App() {
   return (
     <footer>
+        <img className='VectorBleu1' src={VectorBleu01} alt='vector1' />
+        <img className='VectorBleu2' src={VectorBleu02} alt='vector2' />
+        <img className='VectorBleu3' src={VectorBleu3} alt='vector3' />
         <div className='first-bloc-footer'>
             <div className='box-footer'>
                 <div className='box-head-footer'>
