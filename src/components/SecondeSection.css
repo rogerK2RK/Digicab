@@ -96,6 +96,10 @@ span{
     border: 0px;
 }
 
+.bouton-partenaire:hover{
+    background-color: #EDEFFF;
+}
+
 .bandeau{
     position: absolute;
     height: 100%;
@@ -145,6 +149,15 @@ span{
     border: 1px solid #EDEFFF;
     border-radius: 4px;
     margin: 0 0 20px 0;
+}
+
+.box-faq:hover{
+    background-color: #EDEFFF;
+    transition: 0.025ms;
+}
+
+.box-faq:hover > .dropdown-icon-faq{
+    background: #F5F6F8;
 }
 
 .faq{

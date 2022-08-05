@@ -92,6 +92,10 @@ label{
     margin-top: 30px;
 }
 
+.submit-form:hover{
+    filter: brightness(120%);
+}
+
 .icone-arrow-up{
     color: #fff;
 }

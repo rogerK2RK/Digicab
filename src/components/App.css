@@ -79,6 +79,10 @@ button{
   border: 0px;
 }
 
+.bouton-inscription-header:hover{
+  filter: brightness(120%);
+}
+
 .phone-picto-header{
   color: #14186a;
   font-family: 'Material Icons';
