@@ -1,6 +1,5 @@
 import './SecondeSection.css';
 import arrowUp from "../assets/Icones/ArrowUpRight.svg"
-import Img_slide01 from "../assets/Img_slider_01.png"
 import euro from '../assets/Icones/Icon_euro.svg'
 import star from '../assets/Icones/Icon_star.svg'
 import heart from '../assets/Icones/Icon_heart.svg'
@@ -11,10 +10,7 @@ import phone from '../assets/Icones/Icon_phone.svg'
 import faq from '../assets/Img_FAQ.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faAngleDown} from '@fortawesome/free-solid-svg-icons'
-
-
-
-
+import Slide from './Slide'
 
 
 function SecondeSection() {
@@ -26,9 +22,7 @@ function SecondeSection() {
             Particulièrement adapté aux livraisons à vélo, Il possède 3 écrans sur 
             lesquels sont diffusées des publicités.</p>
       </div>
-      <div>
-            <img className='img-slide' alt=''src={Img_slide01} />
-      </div>
+      <Slide/>
 
       {/* A mettre dans un autre fichier */}
       <div>

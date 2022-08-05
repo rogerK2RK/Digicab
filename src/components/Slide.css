@@ -1,0 +1,8 @@
+
+.img-slide{
+    width: 100%;
+}
+
+.carousel .thumbs-wrapper, .carousel .carousel-status, .carousel.carousel-slider .control-arrow{
+    display: none;
+}

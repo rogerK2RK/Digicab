@@ -24,10 +24,6 @@ span{
     color: #4C526A;
 }
 
-.img-slide{
-    width: 100%;
-}
-
 .box-row{
     display: flex;
     justify-content: space-between;
